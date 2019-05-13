@@ -1,0 +1,10 @@
+double x[9];
+int i;
+
+prints("\nOto tablica double: ");
+for(i=1;i=i+1;i<=9)
+{
+    x[i]= i + i*0.1;
+    printf(x[i]);
+    prints(" ");
+}

@@ -1,0 +1,42 @@
+int a[10];
+int i;
+int j;
+int temp;
+
+a[0] = 18;
+a[1] = 5;
+a[2] = 45;
+a[3] = 70;
+a[4] = 12;
+a[5] = 13;
+a[6] = 90;
+a[7] = 92;
+a[8] = 1;
+a[9] = 13;
+
+prints("\nPrzed sortowaniem: ");
+for(i=0;i=i+1;i<10)
+{
+  printi(a[i]);
+  prints(" ");
+}
+
+for(i=0;i=i+1;i<9)
+{
+  for(j=0;j=j+1;j<9)
+  {
+    if(a[j]> a[j+1])
+    {
+        temp =a[j];
+        a[j]=a[j+1];
+        a[j+1]= temp;
+    }
+  }
+}
+
+prints("\nPo sortowaniu: ");
+for(i=0;i=i+1;i<10)
+{
+  printi(a[i]);
+  prints(" ");
+}

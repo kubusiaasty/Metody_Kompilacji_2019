@@ -1,0 +1,32 @@
+int strzal;
+int liczba;
+int proba;
+
+liczba =60;
+proba=0;
+
+prints("Pomyslalem liczbe od 1 do 100\n");
+
+while(strzal!=liczba)
+{
+    proba=proba+1;
+    prints("Zgadnij jaka (to twoja ");
+    printi(proba);
+    prints(" proba): ");
+    
+    readi(strzal);
+    if(strzal == liczba)
+    {
+        prints("Udalo sie, zgadles w ");
+        printi(proba);
+        prints(" probie!");
+    }
+    if(strzal< liczba)
+    {
+        prints("To za malo!\n");
+    }
+    if(strzal> liczba)
+    {
+        prints("To za duzo!\n");
+    }
+}

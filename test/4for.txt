@@ -1,0 +1,8 @@
+int x;
+
+for(x=0;x=x+1;x<10)
+{
+  printi(x);
+  prints("\n");
+}
+prints("koniec fora");

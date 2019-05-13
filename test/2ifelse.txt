@@ -1,0 +1,22 @@
+int x;
+int y;
+y=5;
+x=5;
+
+if(x==10) 
+{
+  prints("ifik\n");
+}
+else
+{
+  prints("elsik");
+  if(y>=4)
+  {
+    prints("ifik2\n");
+  }
+  else
+  {
+    prints("elsik2");
+  }
+}
+prints("koniec");

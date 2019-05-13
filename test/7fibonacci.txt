@@ -1,0 +1,20 @@
+int n;
+int i;
+int a;
+int b;
+a=0;
+b=1;
+
+prints("Podaj liczbe calkowita: ");
+readi(n);
+
+prints("fibonacci = 0 ");
+for(i=0;i=i+1;i<n)
+{
+  printi(i);
+  prints(" : ");
+  printi(b);
+  prints(" \n");
+  b=b+a;
+  a=b-a;
+}

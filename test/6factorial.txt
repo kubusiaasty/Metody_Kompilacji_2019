@@ -1,0 +1,14 @@
+int s;
+int n;
+int i;
+
+prints("Podaj liczbe calkowita: ");
+readi(n);
+
+s=1;
+for(i=1;i=i+1;i<=n){
+  s=s*i;
+}
+
+prints("silnia = ");
+printi(s);
